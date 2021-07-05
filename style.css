@@ -3,20 +3,25 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 50px;
+}
+
 .color-orange {
     color: orange;
 }
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
     width: 50%;
-    padding: 5%;
+    padding-left: 2%;
 }
 
-.half-width image {
+.half-width img {
     width: 80%;
 }
 
@@ -30,7 +35,14 @@ section {
 
 }
 
-.background-image {
+.top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.drean-big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
